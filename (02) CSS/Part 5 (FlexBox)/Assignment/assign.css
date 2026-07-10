@@ -1,0 +1,40 @@
+
+/* Qs.1 CSS */
+#container {
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(0, 128, 102);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#container .boxes {
+    height: 25%;
+    width: 25%;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+/* Qs.2 CSS */
+#nav-bar {
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgb(0, 128, 102);
+    background-color: pink;
+    display: flex;
+    
+    
+}
+
+#nav-bar >  div {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    padding-top: 10px;
+}

@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+    background-color: gray;
+}
+
+p {
+    color: red;
+    background-color: yellowgreen;
+}
+
+button {
+    color: gold;
+    background-color: black;
+}
+
+h3 {
+    color: rgb(200, 50, 0);
+}
+
+h4 {
+    color: #ffffff;
+    background-color: rgb(0,0,0);
+}

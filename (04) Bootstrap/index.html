@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar component -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brand name</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link">Home</a>
+            <a class="nav-link">Support</a>
+            <a class="nav-link">login</a>
+            <a class="nav-link">signup</a>
+          </div>
+        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Container layout -->
+    <div class="container">
+      <h2>Bootstrap Demo</h2>
+      <!-- Cards component -->
+      <div class="card" style="width: 18rem">
+        <img src="photo.jpg" alt="camera" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title">Photography</h5>
+          <p class="card-text">It is an art to capture important things.</p>
+          <a href="#" class="btn btn-primary">Know more</a>
+        </div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+        voluptatem ex molestiae explicabo quis magnam vel reiciendis quisquam
+        amet, velit id eligendi corrupti aperiam laudantium est eos unde a
+        natus. Laudantium, quaerat consequatur tempore quibusdam amet et dolorem
+        vero excepturi ullam voluptatum consequuntur autem ad alias sunt impedit
+        numquam illum. Ab itaque placeat animi, ullam laudantium tenetur
+        veritatis hic ea! Quia placeat voluptates obcaecati in doloremque,
+        voluptatibus, sapiente itaque numquam corporis ea corrupti. Sed expedita
+        obcaecati ab necessitatibus pariatur. Dicta nemo minima delectus officia
+        eos tempore ipsum aperiam, illo aliquam. Veniam nulla dolorum, commodi
+        eaque laudantium quod atque nam hic non inventore excepturi at placeat
+        quos ipsa, animi rerum ex suscipit. Reprehenderit nam doloremque
+        voluptatum nesciunt ullam, numquam hic earum. Delectus hic nesciunt
+        labore adipisci dicta voluptas ab facere facilis voluptatibus vitae.
+        Voluptas, eligendi quo culpa quos enim non molestias aut voluptates in
+        quam? Nemo suscipit maxime aspernatur et temporibus! Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Nesciunt voluptatem ex molestiae
+        explicabo quis magnam vel reiciendis quisquam amet, velit id eligendi
+        corrupti aperiam laudantium est eos unde a natus. Laudantium, quaerat
+        consequatur tempore quibusdam amet et dolorem vero excepturi ullam
+        voluptatum consequuntur autem ad alias sunt impedit numquam illum. Ab
+        itaque placeat animi, ullam laudantium tenetur veritatis hic ea! Quia
+        placeat voluptates obcaecati in doloremque, voluptatibus, sapiente
+        itaque numquam corporis ea corrupti. Sed expedita obcaecati ab
+        necessitatibus pariatur. Dicta nemo minima delectus officia eos tempore
+        ipsum aperiam, illo aliquam. Veniam nulla dolorum, commodi eaque
+        laudantium quod atque nam hic non inventore excepturi at placeat quos
+        ipsa, animi rerum ex suscipit. Reprehenderit nam doloremque voluptatum
+        nesciunt ullam, numquam hic earum. Delectus hic nesciunt labore adipisci
+        dicta voluptas ab facere facilis voluptatibus vitae. Voluptas, eligendi
+        quo culpa quos enim non molestias aut voluptates in quam? Nemo suscipit
+        maxime aspernatur et temporibus!
+      </p>
+    </div>
+    <!-- Button component -->
+    <button class="btn btn-outline-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-outline-warning">warning</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-light">light</button>
+    <button class="btn btn-dark">dark</button>
+    <button class="btn btn-link">link</button>
+
+    <a href="#" class="btn btn-dark">google.com</a>
+    <br />
+    <!-- Badge component -->
+    <h3>notification <span class="badge bg-primary">10+</span></h3>
+    <br />
+    <button class="btn btn-primary">
+      Followers
+      <span class="badge text-bg-secondary rounded-pill">100+</span>
+    </button>
+    <br />
+    <br />
+
+    <button type="button" class="btn btn-primary position-relative">
+      Profile
+      <span
+        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"
+      >
+        <span class="visually-hidden">10+</span>
+      </span>
+    </button>
+    <!-- Alert Component -->
+    <div class="alert alert-danger">Download failed! please try again.</div>
+    <div class="alert alert-success alert-dismissible">
+      Congratulations ! you score is 50/50.
+      <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <!-- Button group component -->
+    <div class="container">
+      <div class="btn-group">
+        <button class="btn btn-outline-primary">one</button>
+        <button class="btn btn-outline-secondary">two</button>
+        <button class="btn btn-outline-info">three</button>
+      </div>
+
+      <button class="btn btn-primary">one</button>
+      <button class="btn btn-secondary">two</button>
+      <button class="btn btn-info">three</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

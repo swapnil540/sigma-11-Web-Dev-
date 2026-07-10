@@ -1,0 +1,41 @@
+div {
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+#static {
+    background-color: yellow;
+    position: static;
+    top: 100px;
+}
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 50px; /* offset */
+}
+
+#absolute {
+    background-color: yellow;
+    position: absolute;
+    top: 200px; /* offset */
+}
+
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 100px; /* offset */
+
+}
+
+#sticky {
+    background-color: brown;
+    position: sticky;
+    top: px; /* offset */
+
+}

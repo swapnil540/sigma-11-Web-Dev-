@@ -1,0 +1,76 @@
+.box {
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+    animation: widthAnimate 3s linear .5s 1 normal;
+    
+}
+
+/* .box:hover {
+    /* animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+    animation-direction: normal; 
+    
+} */
+
+@keyframes widthAnimate {
+    from {
+        width: 50px;
+        background-color: green;
+    }
+    to {
+        width: 500px;
+        background-color: blue;
+        border-radius: 10px;
+    }
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes color {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+    
+}
+
+
+.box2 {
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    background-color: aqua;
+    animation: box2Animate 2s linear .5s infinite normal;
+
+}
+
+@keyframes box2Animate {
+    0% {width: 50px;}
+    50% {
+        width: 100px;
+        background-color: orange;
+        border: 5px dotted black;
+        border-radius: 50%;
+        
+    }
+    100% {
+        width: 500px;
+        background-color: orange;
+        border: 5px dotted black;
+        border-radius: 70%;
+    }
+    
+}

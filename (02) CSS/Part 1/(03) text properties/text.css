@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    text-decoration: wavy red underline;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h3 {
+    text-align: right;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

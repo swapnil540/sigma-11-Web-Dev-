@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="/server">
+            <div>
+                <label for="username">Enter your Username : </label>
+                <input type="text" id="username" placeholder="Username" name="username"/>
+            </div>
+            <div>
+                <label for="pass">Password : </label>
+                <input type="password" id="pass" placeholder="Password" name="password">
+            </div>
+            <div>
+                <label for="age">Enter Age : </label>
+                <input type="number" id="age" placeholder="Age" name="age">
+            </div>
+            <button type="submit">Submit</button> <!--submits information-->
+            <button type="button">hello</button> <!--Does nothing-->
+            <button type="reset">reset</button> <!--Refreshes input infoormation written on form on click-->
+            
+        </form>
+
+        <hr>
+
+        <form action="https://www.youtube.com/results?">
+            <input type="text" placeholder="search in youtube" name="search_query"> <!--Searches in youtube-->
+            <button>Search</button>
+        </form>
+        <hr>
+        <!--Input elements -->
+        <form action="/action">
+            <div>
+                <input type="checkbox" id="ag" name="age" >
+                <label for="ag">I am 18+</label>
+            </div>
+            <div>
+                <input type="radio" id="apple" name="fruit" value="apple">
+                <label for="apple">Apple</label>
+            </div>
+            <div>
+                <input type="radio" id="mango" name="fruit" value="mango">
+                <label for="mango">Mango</label>
+            </div>
+            <div>
+                <input type="radio" id="orange" name="fruit" value="orange">
+                <label for="orange">Apple</label>
+            </div>
+            <div>
+                <label for="profession">Choose your profession : </label> 
+                <select name="profession" id="profession">
+                    <option>Select your option</option>
+                    <option value="student">Student</option>
+                    <option value="developer">Developer</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+            <div>
+                <label for="volume">Select Volume : </label>
+                <input type="range" min="0" max="100" name="vol" id="volume" step="10">
+            </div>
+            <div>
+                <label for="feedback">Provide your valuable feedback : </label>
+                <textarea name="feedback" id="feedback" placeholder="write your feedback here"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+        
+        
+    </body>
+</html>

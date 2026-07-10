@@ -1,0 +1,30 @@
+span {
+    /* background-color: aquamarine; */
+    height: 100px; /* height and width not sets for an inline element */
+    width: 300px;
+    border: 2px solid black;
+    margin: 50px; /* only left and right side padding and margin can set for inline element not top and bottom */
+    padding: 50px;
+}
+
+#div1 {
+    height: 100px; 
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px; 
+    padding: 50px;
+
+}
+
+.bottom-divs {
+    height: 150px;
+    width: 200px;
+    background-color: greenyellow;
+    margin: 5px;
+    border: 2px solid black;
+    display: inline-block; /
+}
+
+#third {
+    display: none;
+}
