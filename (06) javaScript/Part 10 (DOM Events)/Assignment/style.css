@@ -1,0 +1,46 @@
+.outer {
+    height: 8rem;
+    width: 8rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    
+
+}
+
+.inner {
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid black;
+    /* margin: auto; */
+}
+
+.inner1 {
+    background-color: red;
+}
+
+.inner2 {
+    background-color: teal;
+}
+
+.para3 {
+    position: fixed;
+    top: 10px;
+    right: 70px;
+}
+
+.bigBox {
+    height: 10rem;
+    width: 30rem;
+    border: 3px dotted black;
+}
+
+.greenBg {
+    background-color: green;
+}
+
+h2 {
+    text-align: center;
+}
