@@ -1,0 +1,27 @@
+
+div {
+    border: 2px  solid black;
+    display: flex;
+    margin:auto;
+    
+}
+
+.box1 {
+    height: 10rem;
+    width: 10rem;
+    background-color: pink;
+    
+
+}
+.box2 {
+    height: 5rem;
+    width: 5rem;
+    background-color: yellow;
+
+}
+.box3 {
+    height: 3rem;
+    width: 3rem;
+    background-color: yellowgreen;
+
+}
