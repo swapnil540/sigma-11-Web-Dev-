@@ -69,11 +69,11 @@ h4 {
     padding: .5rem;
     font-family: 'Courier New', Courier, monospace;
     border-radius: .3rem;
+    border: .5px solid black;
 }
 
 .goldBg {
     background-color: gold;
-    /* border: .5px solid black; */
 }
 
 
