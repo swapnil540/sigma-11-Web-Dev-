@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twit in Detail</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .container {
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>id : <%= twit.id %></p>
+        <div class="twit">
+            <div class="profilePicture">
+                <img src=<%= twit.img %> alt="profile  Photo">
+            </div>
+            <div class="twitData">
+                <div class="username">@<%= twit.username %></div>
+                <div class="content"><%= twit.content %></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

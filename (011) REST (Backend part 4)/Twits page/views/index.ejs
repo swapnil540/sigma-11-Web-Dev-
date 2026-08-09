@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All twits</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <% for(twit of twits) { %>
+        <div class="container">
+            <div class="twit">
+                <div class="profilePicture">
+                    <img src=<%= twit.img %> alt="profile  Photo">
+                </div>
+                <div class="twitData">
+                    <div class="username">@<%= twit.username %></div>
+                    <div class="content"><%= twit.content %></div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="twitOptions">
+                <a href="/twits/<%= twit.id %>">view in detail</a>
+                <a href="/twits/<%= twit.id %>/edit">Edit</a>
+                <form method="post" action="/twits/<%= twit.id %>?_method=delete">
+                    <button>Delete</button>
+                </form>
+            </div>
+        </div>
+    <% } %>
+
+    <a href="/twits/new">Create new twit</a>
+</body>
+</html>
